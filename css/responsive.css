@@ -1,0 +1,115 @@
+@media(max-width:991px){
+    header nav .menu li a {
+        display: block;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    #banner .container div .link {
+        font-size: 17px;
+        padding: 10px 13px;
+        margin-right: 10px;
+    }
+    #banner .container div a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    #About {
+        padding: 60px 0;
+    }
+    #About .row div a {
+        padding: 10px 12px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    #my_skills {
+        padding-bottom: 70px;
+    }
+    #our_services {
+        padding: 35px 0;
+    }
+    #portfolio {
+        padding: 60px 0;
+    }
+    #portfolio .container a {
+        padding: 10px 13px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #my_skills .bg img {
+        margin-left: 0;
+    }
+    #testimonial {
+        padding: 40px 0;
+        background: #f5f5f5;
+    }
+    #blogs {
+        padding: 60px 0;
+    }
+    #blogs .container .text {
+        padding-bottom: 0;
+    }
+    #blogs .container .link a {
+        padding: 10px 13px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    footer .footer_info {
+        padding: 50px 0 25px 0;
+    }
+    footer .footer_info .footer_content,
+    footer .footer_info .footer_contact,
+    footer .footer_info .footer_img,
+    footer .footer_info .footer_ul{
+        margin-top: 20px;
+    }
+}
+@media(max-width:767px){
+    header .top_bar .row div p {
+        margin-bottom: 0;
+    }
+    #banner {
+        height: 550px;
+    }
+    #portfolio .portfolio_item img{
+       width: 100%;
+    }
+    #blogs .container .blog_info .content img{
+        width: 100%;
+     }
+    #blogs .container .blog_info:hover .content,
+    #portfolio .portfolio_item:hover{
+        transform: scale(1);
+    }
+    footer .footer_info .footer_ul ul li,
+    footer .footer_info .footer_content img,
+    footer .footer_info .footer_content p,
+    footer .footer_info .footer_contact h2,
+    footer .footer_info .footer_contact .footer_contain,
+    footer .footer_info .footer_img h2,
+    footer .footer_info .footer_ul h2{
+        padding-bottom: 15px;
+    }
+    
+
+}
+@media(max-width:575px){
+    #banner .container div h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #banner .container div h1 small {
+        font-size: 35px;
+    }
+    #banner .container div h2 {
+        font-size: 25px;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+    }
+    #my_skills .skill_info .skill_img { 
+        width: 40px;
+        height: 40px;
+    }
+}
